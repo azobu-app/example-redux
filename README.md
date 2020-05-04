@@ -25,11 +25,15 @@ This will provide the node modules for the whole apps in the repo.
 yarn dev
 ```
 
+Then open `localhost:8080`. It will automatically reload on file change.
+
 ### Production
 
 ```sh
 yarn start
 ```
+
+Then open `localhost:8080`.
 
 ## License
 

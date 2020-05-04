@@ -8,7 +8,7 @@
   "scripts": {
     "postinstall": "./setup.sh",
     "dev": "live-server .",
-    "start": "serve -s ."
+    "start": "http-server ."
   },
   "dependencies": {
     "redux": "4.0.5"
@@ -16,7 +16,7 @@
   "devDependencies": {
     "@babel/core": "7.9.6",
     "@babel/node": "7.8.7",
-    "live-server": "1.2.1",
-    "serve": "11.3.0"
+    "http-server": "0.12.3",
+    "live-server": "1.2.1"
   }
 }
