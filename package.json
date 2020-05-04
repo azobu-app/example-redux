@@ -1,0 +1,23 @@
+{
+  "name": "example-redux",
+  "version": "1.0.0",
+  "description": "Example Redux",
+  "main": "index.js",
+  "repository": "https://github.com/azobu-app/example-redux",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "./setup.sh",
+    "start:counter:browser": "live-server counter/browser",
+    "start:counter:node": "node counter/node/index.js",
+    "start:todos:browser": "live-server todos/browser",
+    "start:todos:node": "node todos/node/index.js"
+  },
+  "dependencies": {
+    "redux": "4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/node": "7.8.7",
+    "live-server": "1.2.1"
+  }
+}
