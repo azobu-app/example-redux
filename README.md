@@ -19,20 +19,16 @@ yarn
 
 This will provide the node modules for the whole apps in the repo.
 
-### Start
+### Development
 
 ```sh
-yarn start:<app>:<platform>
+yarn dev
 ```
 
+### Production
+
 ```sh
-yarn start:counter:browser
-
-yarn start:counter:node
-
-yarn start:todos:browser
-
-yarn start:todos:node
+yarn start
 ```
 
 ## License
